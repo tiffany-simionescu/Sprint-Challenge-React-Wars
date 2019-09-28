@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card, CardTitle, CardText, Col} from 'reactstrap';
-import './Starwars.css';
+import './StarWars.css';
 
 export default function CardComponent(props) {
   return (
