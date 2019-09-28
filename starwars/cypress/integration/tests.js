@@ -15,14 +15,14 @@ describe('My Second Test', function() {
 // Visit the API test
 describe('API link test', function() {
   it('Visits the StarWars API', function() {
-    cy.visit('https://swapi.co/api/people/')
+    cy.visit('https://swapi.co/api/')
   })
 })
 
 // Query for an Element
 describe('API link test', function() {
   it('finds the content OPTIONS', function() {
-    cy.visit('https://swapi.co/api/people/')
+    cy.visit('https://swapi.co/api/')
 
     cy.contains('OPTIONS')
   })
@@ -31,7 +31,7 @@ describe('API link test', function() {
 // Click an Element
 describe('API link test', function() {
   it('clicks the link OPTIONS', function() {
-    cy.visit('https://swapi.co/api/people/')
+    cy.visit('https://swapi.co/api/')
 
     cy.contains('OPTIONS').click()
   })
